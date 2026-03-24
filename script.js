@@ -1,4 +1,4 @@
-const TMDB_TOKEN = "YOUR_TMDB_READ_ACCESS_TOKEN";
+const TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZmU2MmYyNjBhODY5ZDM2OWYyY2JkOGJmZjQ3YTJhOSIsIm5iZiI6MTc3NDM3MjI4Ny4yNDgsInN1YiI6IjY5YzJjNWJmNDRkY2Y3YzNhMjdiY2NmNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FzxoifQQF6gM5rLzkfOGpQRF4st3G7M9bN6deDG90l8";
 
 const app = document.getElementById("app");
 const movieModal = document.getElementById("movieModal");

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CinemaLog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <h1>CinemaLog</h1>
+        <p>Frontend-only movie discovery and tracking</p>
+      </div>
+
+      <div class="topbar-right">
+        <nav class="nav">
+          <button class="nav-btn active" data-view="home">Home</button>
+          <button class="nav-btn" data-view="discover">Discover</button>
+          <button class="nav-btn" data-view="search">Search</button>
+          <button class="nav-btn" data-view="profile">Profile</button>
+          <button class="nav-btn" data-view="lists">Lists</button>
+        </nav>
+
+        <button id="themeToggleBtn" class="ghost-btn" type="button">Toggle Theme</button>
+      </div>
+    </header>
+
+    <main id="app"></main>
+  </div>
+
+  <div id="movieModal" class="modal hidden">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-panel">
+      <button id="closeModal" class="close-modal">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
